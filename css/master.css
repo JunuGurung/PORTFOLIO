@@ -1,0 +1,321 @@
+.shrink{
+  position: fixed;
+  top: 0;
+  left:0 ;
+  width: 100%;
+  background: #EB0958;
+  font-family: 'Audiowide', cursive;
+  padding:20px 20px;
+  
+}
+label{
+  display: none;
+}
+.menu-inner{
+   list-style-type: none;
+   display: inline-flex;
+   margin-left: 23rem;
+}
+#nav-hori{
+  color: white;
+  font-size: 25px;
+  padding: 25px;
+  text-decoration: none;
+ 
+}
+
+nav.small{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #EB0958;
+  font-family: 'Audiowide', cursive;
+}
+nav.small{
+  display: none;
+}
+
+.small li{  
+  text-align: center;
+}
+.nav-list{
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  font-size: 30px;
+  padding: 45px;
+  color: white;
+}
+.nav-list:hover{
+  background:white;
+  width: 100%;
+  color: #EB0958;
+}
+
+.hamburger{
+  color: white;
+  font-size: 50px;
+  float: left;
+  margin-left: 50px;
+
+}
+.flip {
+  -webkit-animation: flip 10s; /* Safari 4+ */
+  -moz-animation:    flip 10s; /* Fx 5+ */
+  -o-animation:      flip 10s; /* Opera 12+ */
+  animation:         flip 10s; /* IE 10+, Fx 29+ */
+}
+.flipOutX {
+  -webkit-animation: flipOutX 5s; /* Safari 4+ */
+  -moz-animation:    flipOutX 5s; /* Fx 5+ */
+  -o-animation:      flipOutX 5s; /* Opera 12+ */
+  animation:       infinite  flipOutX 5s; /* IE 10+, Fx 29+ */
+}
+.icon:hover {
+    cursor: pointer;
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.admin{
+  font-family: 'Audiowide', cursive;
+  font-size: 90px;
+  margin-top: 10rem;
+}
+
+.sub{
+  font-family: 'Audiowide', cursive;
+  font-size: 28px;
+  margin-top: 20px;
+}
+.sub-last{
+  font-family: 'Audiowide', cursive;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.arrow{
+  height: 60px;
+  width: 80px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+    
+}
+.arrow:hover{
+  cursor: pointer;
+}
+.work {
+    padding: 0;
+    background-color: #000;
+}
+
+
+.work-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.work-showcase li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.snippet {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+
+.snippet img {
+    opacity: 0.6;
+    width: 100%;
+    height: 400px;
+    transform: scale(1.25);
+    transition: transform 0.5s, opacity 0.5s;
+
+}
+
+.snippet img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+.snippet a {
+  position: absolute;
+    bottom: 200px;
+    right: 300px;
+    background: #13ACE8;
+    color: white;
+    
+    text-decoration: none;
+    border: none;
+    padding: 15px 30px;
+    font-family: 'Audiowide', cursive;
+    border-radius: 30px;
+}
+
+.work-container{
+  width: 100%;
+}
+.mywork{
+  font-family: 'Audiowide', cursive;
+  font-size: 60px;
+  color: #EB0958;
+  padding: 80px;
+  text-align: center;
+}
+
+.flipInY{
+  -webkit-animation: flipOutX 5s; /* Safari 4+ */
+  -moz-animation:    flipOutX 5s; /* Fx 5+ */
+  -o-animation:      flipOutX 5s; /* Opera 12+ */
+  animation: flipOutX 5s; /* IE 10+, Fx 29+ */
+}
+.service-container{
+  width: 100%;
+}
+.service{ 
+  font-family: 'Audiowide', cursive;
+  font-size: 60px;
+  color: #EB0958;
+  padding: 100px;
+  text-align: center;
+}
+.service-container{
+  background: 
+  linear-gradient(to bottom right,rgba(0,0,0,0.9),rgba(222,63,46,0.1)),
+   url('../images/service.jpg') fixed repeat 100%;
+  background-size: cover;
+  
+}
+
+.service-img{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 55px;
+  font-size: 35px;
+
+}
+.anim{
+  animation: flipInY 5s;
+}
+h6{
+  font-size: 27px;
+  font-family: 'Audiowide', cursive;
+  color: white;
+  padding-top: 16px;
+}
+.craftship{
+  font-family: 'Audiowide', cursive;
+  color: #EB0958;
+
+}
+
+.aw-font{
+  color: white;
+  padding: 60px;
+}
+.aw-font:hover{
+  cursor: pointer;
+  -webkit-animation: jello 1s; /* Safari 4+ */
+  -moz-animation:    jello 1s; /* Fx 5+ */
+  -o-animation:      jello 1s; /* Opera 12+ */
+  animation:         jello 1s; /* IE 10+, Fx 29+ */
+}
+
+.about{
+  width: 100%;
+  color: #0A5D7D;
+  font-family: 'Crafty Girls', cursive;
+  font-size: 20px;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+}
+.about-me{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.about-inner{
+  width: 50%;
+  margin: 0 auto;
+  font-weight: bolder;
+}
+
+.move{
+  animation: fadeInLeftBig 3s;
+
+}
+.social-title{
+  text-align: center;
+  color: #1985A6;
+  font-family: 'Audiowide', cursive;
+
+}
+.social-love{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 1rem;
+}
+.love-emo{
+  animation: infinite bounceIn 3s;
+}
+.love{
+  color:  #EB0958;
+}
+.contact-me{
+  padding: 100px;
+}
+.contact-title{
+  text-align: center;
+  background:
+  linear-gradient(to bottom right,rgba(0,0,0,0.8),rgba(222,63,46,0.1)),
+   url('../images/Nepal.jpg') fixed repeat 100%;
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Audiowide', cursive;
+}
+
+.social-icon{
+  color: #EB0958;
+  padding: 1rem;
+}
+.social-icon:hover{
+  color: #13ACE8;
+  animation:rotateIn 1s;
+  border-radius: 100%;
+}
+.up{
+  float: right;
+  font-size: 50px;
+  color: white;
+  animation: bounceIn infinite 2s;
+  margin-top: 20px;
+}
+
+.footer{
+  background: #023A4D;
+  padding: 1px;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+.junu{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Audiowide', cursive;
+}
