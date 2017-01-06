@@ -62,18 +62,6 @@ nav.small{
   margin-left: 50px;
 
 }
-/*.flip {
-  -webkit-animation: flip 10s; 
-  -moz-animation:    flip 10s;
-  -o-animation:      flip 10s; 
-  animation:         flip 10s;
-}*/
-.flipOutX {
-  -webkit-animation: flipOutX 5s; /* Safari 4+ */
-  -moz-animation:    flipOutX 5s; /* Fx 5+ */
-  -o-animation:      flipOutX 5s; /* Opera 12+ */
-  animation:       infinite  flipOutX 5s; /* IE 10+, Fx 29+ */
-}
 .icon:hover {
     cursor: pointer;
     -webkit-animation: bounce 1s;
