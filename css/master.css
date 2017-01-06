@@ -3,7 +3,8 @@
   top: 0;
   left:0 ;
   width: 100%;
-  background: #EB0958;
+  /*background: #EB0958;*/
+  background: rgba(19, 171, 231, 0.96);
   font-family: 'Audiowide', cursive;
   padding:20px 20px;
   
@@ -29,7 +30,8 @@ nav.small{
   top: 0;
   left: 0;
   width: 100%;
-  background: #EB0958;
+  background: rgba(19, 171, 231, 0.96);
+  
   font-family: 'Audiowide', cursive;
 }
 nav.small{
@@ -50,7 +52,7 @@ nav.small{
 .nav-list:hover{
   background:white;
   width: 100%;
-  color: #EB0958;
+  color: #13ACE8;
 }
 
 .hamburger{
@@ -60,12 +62,12 @@ nav.small{
   margin-left: 50px;
 
 }
-.flip {
-  -webkit-animation: flip 10s; /* Safari 4+ */
-  -moz-animation:    flip 10s; /* Fx 5+ */
-  -o-animation:      flip 10s; /* Opera 12+ */
-  animation:         flip 10s; /* IE 10+, Fx 29+ */
-}
+/*.flip {
+  -webkit-animation: flip 10s; 
+  -moz-animation:    flip 10s;
+  -o-animation:      flip 10s; 
+  animation:         flip 10s;
+}*/
 .flipOutX {
   -webkit-animation: flipOutX 5s; /* Safari 4+ */
   -moz-animation:    flipOutX 5s; /* Fx 5+ */
@@ -115,7 +117,6 @@ nav.small{
     background-color: #000;
 }
 
-
 .work-showcase {
     list-style: none;
     width: 100%;
@@ -160,7 +161,7 @@ nav.small{
     border: none;
     padding: 15px 30px;
     font-family: 'Audiowide', cursive;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .work-container{
@@ -169,7 +170,9 @@ nav.small{
 .mywork{
   font-family: 'Audiowide', cursive;
   font-size: 60px;
-  color: #EB0958;
+  /*color: #0A5D7D;*/
+
+  color: #306F85;
   padding: 80px;
   text-align: center;
 }
@@ -186,7 +189,7 @@ nav.small{
 .service{ 
   font-family: 'Audiowide', cursive;
   font-size: 60px;
-  color: #EB0958;
+  color: #306F85;
   padding: 100px;
   text-align: center;
 }
@@ -216,7 +219,7 @@ h6{
 }
 .craftship{
   font-family: 'Audiowide', cursive;
-  color: #EB0958;
+  color: white;
 
 }
 
@@ -253,20 +256,35 @@ h6{
   font-weight: bolder;
 }
 
-.move{
+/*.move{
   animation: fadeInLeftBig 3s;
 
+}*/
+
+.contact-title{
+  text-align: center;
+  background:
+  linear-gradient(to bottom right,rgba(0,0,0,0.8),rgba(222,63,46,0.1)),
+  url('../images/Nepal.jpg') fixed repeat 100%;
+  background-size: cover;
+  padding: 130px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Audiowide', cursive;
+}
+.contact-me{
+  padding: 60px;
 }
 .social-title{
   text-align: center;
   color: #1985A6;
   font-family: 'Audiowide', cursive;
-
 }
 .social-love{
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 1rem;
+  /*background: #CBD2D4;*/
 }
 .love-emo{
   animation: infinite bounceIn 3s;
@@ -274,35 +292,32 @@ h6{
 .love{
   color:  #EB0958;
 }
-.contact-me{
-  padding: 100px;
-}
-.contact-title{
-  text-align: center;
-  background:
-  linear-gradient(to bottom right,rgba(0,0,0,0.8),rgba(222,63,46,0.1)),
-   url('../images/Nepal.jpg') fixed repeat 100%;
-  background-size: cover;
-  padding: 100px;
-  color: white;
-  font-size: 50px;
-  font-family: 'Audiowide', cursive;
-}
-
 .social-icon{
-  color: #EB0958;
   padding: 1rem;
 }
+.social-icon.one{
+  color: #cd201f;
+}
+.social-icon.two{
+  color: #0077B5;
+}
+.social-icon.three{
+  color: black;
+}
+.social-icon.four{
+  color: #55acee;
+}
+.social-icon.five{
+  color:black;
+}
 .social-icon:hover{
-  color: #13ACE8;
-  animation:rotateIn 1s;
-  border-radius: 100%;
+  animation:bounceIn 1s;
 }
 .up{
   float: right;
   font-size: 50px;
   color: white;
-  animation: bounceIn infinite 2s;
+  animation: flipInX infinite 2s;
   margin-top: 20px;
 }
 
