@@ -88,7 +88,7 @@
         </section>
     </div>
     <div id="service" class="service">
-            Services i can provide.
+            Services i can provide
     </div>
     <div class="service-container clearfix">
         <div class="service-img">
@@ -102,7 +102,7 @@
 
     <div id="aboutme" class="about clearfix">
         <div class="about-me">
-            <h1 class="about-title">About me</h1>
+            <p class="about-title">About me</p>
             <div class="about-inner">
                 <p>Relocated since 2016, Boston-based web developer. Originally from Nepal which is located at the southern slopes in the Great Himalayan Range.</p>
                 <p>I'm daring dreamer passionate about crafting Visionary websites into reality. I'm fond of cooking spicy asian food . I enjoy singing different language songs.</p>
@@ -168,6 +168,7 @@
 
             $("#hamburger").click(function(){
                 $("#nav-menu").toggle("slow");
+                $(this).find("label").stop(true, true).fadeIn();
             });
             $("#hide").click(function(){
                 $("#nav-menu").hide("slow");
@@ -177,9 +178,9 @@
                 $(".navigation a").toggleClass("open");
 
             });
-            $(window).scroll(function(){
-                $("#fly-kite").toggleClass("move");
-            });
+            // $(window).scroll(function(){
+            //     $("#fly-kite").toggleClass("move");
+            // });
             // $(window).scroll(function(){
             //     $("#service").toggleClass("anim");
             // });
