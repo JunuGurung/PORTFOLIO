@@ -4,7 +4,7 @@
   left:0 ;
   width: 100%;
   /*background: #EB0958;*/
-  background: rgba(19, 171, 231, 0.96);
+  background: rgba(19, 171, 231, 0.96); 
   font-family: 'Audiowide', cursive;
   padding:20px 20px;
   
@@ -178,7 +178,8 @@ nav.small{
   font-family: 'Audiowide', cursive;
   font-size: 60px;
   color: #306F85;
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   text-align: center;
 }
 .service-container{
@@ -218,22 +219,29 @@ h6{
 .about{
   width: 100%;
   color: #0A5D7D;
-  font-family: 'Crafty Girls', cursive;
+  /*font-family: 'Audiowide', cursive;*/
   font-size: 20px;
   display: block;
   padding-top: 50px;
   padding-bottom: 50px;
+  background: rgba(218, 212, 212, 0.61);
  
+}
+.about-title{
+  font-family: 'Audiowide', cursive;
+
 }
 .about-me{
   float: left;
   width: 100%;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 .about-inner{
   width: 50%;
   margin: 0 auto;
-  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+/*  font-weight: bolder;*/
 }
 
 /*.move{
@@ -291,7 +299,8 @@ h6{
   color:black;
 }
 .social-icon:hover{
-  animation:bounceIn 1s;
+  /*animation:bounceIn 1s;*/
+  opacity: 0.7;
 }
 .up{
   float: right;
