@@ -7,10 +7,8 @@
     <title>Junu Gurung</title>
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <link rel="stylesheet" href="css/styles-jquery.css">
-   <!--  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Audiowide&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <!--   <link href="https://fonts.googleapis.com/css?family=Crafty+Girls" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -19,9 +17,7 @@
 
 <body>
     <div id="container" class="container clearfix">
-     
         <div  id="hamburger" class="icon hamburger" title="Menu">&equiv;</div>
-
         <div class="circles">
             <div class="first circle">
                 <strong></strong>
@@ -92,7 +88,6 @@
     </div>
     <div class="service-container clearfix">
         <div class="service-img">
-           <!--  <h1 class="craftship">#Craftship</h1> -->
             <i class="aw-font fa fa-code fa-4x" ><h6>Front-end</h6></i>
             <i class="aw-font fa fa-wrench  fa-4x" aria-hidden="true"><h6>UX</h6></i>
             <i class="aw-font fa fa-cogs fa-4x" aria-hidden="true"><h6>Creative</h6></i>
@@ -168,7 +163,7 @@
 
             $("#hamburger").click(function(){
                 $("#nav-menu").toggle("slow");
-                $(this).find("label").stop(true, true).fadeIn();
+                $("label").stop();
             });
             $("#hide").click(function(){
                 $("#nav-menu").hide("slow");
@@ -178,15 +173,6 @@
                 $(".navigation a").toggleClass("open");
 
             });
-            // $(window).scroll(function(){
-            //     $("#fly-kite").toggleClass("move");
-            // });
-            // $(window).scroll(function(){
-            //     $("#service").toggleClass("anim");
-            // });
-
-          
-        
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
