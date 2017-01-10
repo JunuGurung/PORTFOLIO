@@ -64,8 +64,8 @@ nav.small{
 }
 .icon:hover {
     cursor: pointer;
-    -webkit-animation: bounce 1s;
-    animation: bounce 1s;
+    /*-webkit-animation: bounce 1s;
+    animation: bounce 1s;*/
 }
 .clearfix:after{
   content: "";
@@ -178,20 +178,20 @@ nav.small{
   font-family: 'Audiowide', cursive;
   font-size: 60px;
   color: #306F85;
-  padding: 100px;
+  padding-top: 100px;
   text-align: center;
 }
 .service-container{
-  background: 
+ /* background: 
   linear-gradient(to bottom right,rgba(0,0,0,0.9),rgba(222,63,46,0.1)),
    url('../images/service.jpg') fixed repeat 100%;
-  background-size: cover;
+  background-size: cover;*/
   
 }
 
 .service-img{
   text-align: center;
-  padding-top: 100px;
+  /*padding-top: 100px;*/
   padding-bottom: 55px;
   font-size: 35px;
 
@@ -202,27 +202,19 @@ nav.small{
 h6{
   font-size: 27px;
   font-family: 'Audiowide', cursive;
-  color: white;
+  color: #306F85;
   padding-top: 16px;
 }
 .craftship{
   font-family: 'Audiowide', cursive;
-  color: white;
+  color: #0A5D7D;
 
 }
 
 .aw-font{
-  color: white;
+  color: #0A5D7D;
   padding: 60px;
 }
-.aw-font:hover{
-  cursor: pointer;
-  -webkit-animation: jello 1s; /* Safari 4+ */
-  -moz-animation:    jello 1s; /* Fx 5+ */
-  -o-animation:      jello 1s; /* Opera 12+ */
-  animation:         jello 1s; /* IE 10+, Fx 29+ */
-}
-
 .about{
   width: 100%;
   color: #0A5D7D;
@@ -305,7 +297,7 @@ h6{
   float: right;
   font-size: 50px;
   color: white;
-  animation: flipInX infinite 2s;
+  /*animation: flipInX infinite 2s;*/
   margin-top: 20px;
 }
 
