@@ -157,7 +157,7 @@ nav.small{
 }
 .service-img{
   text-align: center;
-  padding-bottom: 55px;
+  padding-bottom: 10px;
   font-size: 35px;
 }
 .aw-font{
@@ -175,9 +175,9 @@ h6{
   color: #0A5D7D;
   font-size: 20px;
   display: block;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
-  background: rgba(218, 212, 212, 0.31);
+  background:rgba(193, 193, 193, 0.50);
 }
 .about-title{
   font-family: 'Audiowide', cursive;
